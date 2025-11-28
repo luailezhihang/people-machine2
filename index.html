@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>评审反馈：线框图</title>
+    <style>
+        :root {
+            --primary-blue: #007bff;
+            --light-blue-bg: #f4f8fd;
+            --card-bg: #ffffff;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Times New Roman', serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            margin: 0;
+            padding: 40px;
+            background-color: var(--light-blue-bg);
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: var(--primary-blue);
+            border-bottom: 3px solid var(--primary-blue);
+            padding-bottom: 12px;
+            margin-bottom: 10px;
+            font-size: 18pt;
+        }
+        h2 {
+            color: #343a40;
+            border-left: 5px solid var(--primary-blue);
+            padding-left: 15px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        h3 {
+            color: #5a6268;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 13pt;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px dashed #cce0ff;
+            margin: 40px 0;
+        }
+
+        .section {
+            padding: 30px;
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.1);
+            border: 1px solid #cce0ff;
+            margin-bottom: 30px;
+        }
+
+        .member-info {
+            padding-top: 10px;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            border-bottom: 1px dashed #cce0ff;
+        }
+        .member-info h4 {
+            color: #0056b3;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            font-size: 12pt;
+        }
+        .member-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .member-list p {
+            margin: 5px 0;
+            width: 48%;
+        }
+        .member-roles li {
+            list-style-type: disc;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+            list-style-type: '⚡ ';
+        }
+        li {
+            padding-left: 5px;
+            margin-bottom: 8px;
+        }
+
+        .problem-item {
+            background-color: #eaf3ff;
+            border: 1px solid #cce0ff;
+            padding: 20px;
+            margin-bottom: 18px;
+            border-radius: 6px;
+            border-left: 5px solid var(--primary-blue);
+        }
+
+        .criticality {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-top: 10px;
+            font-size: 10pt;
+        }
+        .high-criticality {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        .medium-criticality {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        .low-criticality {
+            background-color: #d4edda;
+            color: #155724;
+        }
+
+        strong {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="section">
+        <h1>项目提案：校园电动车充电桩预约与共享平台</h1>
+
+        <div class="member-info">
+            <h4>团队成员</h4>
+            <div class="member-list">
+                <p><strong>姚佳悦</strong>：202218130024</p>
+                <p><strong>罗浩铭</strong>：202200130083</p>
+                <p><strong>张政航</strong>：202200130134</p>
+                <p><strong>徐雪钰</strong>：202200130284</p>
+            </div>
+
+            <h4>详细分工</h4>
+            <ul class="member-roles">
+                <li><strong>姚佳悦 (202218130024):</strong> 项目管理、文档撰写与格式化、实验报告总结。</li>
+                <li><strong>罗浩铭 (202200130083):</strong> 实时桩位地图与导航模块设计与实现、用户界面线框图绘制。</li>
+                <li><strong>张政航 (202200130134):</strong> 信用分体系与违规惩戒机制的逻辑设计、15分钟预约保位机制的交互流程设计。</li>
+                <li><strong>徐雪钰 (202200130284):</strong> 智能共享模式的后台逻辑设计、物联网插座的安全保障方案。</li>
+            </ul>
+        </div>
+        <p style="text-indent: 2em;">该项目致力于打造一款面向全校师生的<strong>“校园电动车充电桩预约与共享平台”</strong>。针对目前校园充电设施“有桩无位、有位无电、信息不透明、使用效率低”等核心痛点，平台集成四大功能模块：</p>
+
+        <ul>
+            <li>实时桩位感知与地图导航，帮助用户快速找到可用充电桩；</li>
+            <li>15分钟提前预约与信用保位机制，避免排队与无效跑动；</li>
+            <li>智能共享模式，鼓励宿舍区、教学楼等私有插座车主共享闲置资源，平台提供电费结算与保险保障；</li>
+            <li>信用分体系与违规惩戒，对恶意占桩、拔插头等行为进行扣分与预约限制，营造文明充电环境。</li>
+        </ul>
+
+        <p style="text-indent: 2em;">通过物联网插座、云端算法和小程序端的无缝协同，该项目期望实现“充电不求人、预约不等待、共享不麻烦”，提升校园充电资源利用率，减少用户平均寻桩时间，为绿色校园出行提供可靠、高效、公平的能源基础设施。</p>
+    </div>
+
+    <hr>
+
+    <div class="section">
+        <h2>评审反馈：线框图</h2>
+
+        <h3>1.总体陈述</h3>
+        <p style="text-indent: 2em;">本次线框图评审的整体基调是积极且建设性的。同行普遍认可项目解决校园痛点的价值，尤其赞赏“智能共享模式”和“信用分体系”的创新性。主要的疑问集中在信息架构的清晰度和共享模式的可靠性细节上，需要在线框图的交互流程中进一步明确。</p>
+
+        <h3>2. 已识别问题与分类</h3>
+
+        <h4>类别 A: 导航与信息架构</h4>
+
+        <div class="problem-item">
+            <p><strong>问题/疑问 A1:</strong> 导航入口混淆 - 在首页地图视图中，预约公共充电桩和预约共享插座的图标或卡片入口设计得过于相似，缺乏视觉差异，用户首次使用时可能难以区分两者的服务类型和位置属性，导致选择失误或无效操作。</p>
+            <p><span class="criticality medium-criticality">严重程度: 中等</span></p>
+            <p><strong>我的回应/解决方案:</strong> 计划在地图界面使用颜色编码和差异化图标来区分公共充电桩和共享插座。具体措施包括：公共桩使用深蓝色充电桩图标，共享插座使用橙色插头图标。同时，在首页的快速入口卡片上，将“预约充电”按钮和“共享充电”按钮在尺寸、底色上做出明显区分，并在下方加入简短的服务类型提示语（如“公共设施” vs “私人共享”）。</p>
+        </div>
+
+        <div class="problem-item">
+            <p><strong>问题/疑问 A2:</strong> 信用分入口不明显 - 信用分体系是保障平台运行的核心机制，但在线框图的“我的”页面中，信用分的查看和扣分详情的入口被放置在二级菜单深处，不符合其重要性，用户对自身信用状态的感知不强，可能削弱惩戒和激励效果。</p>
+            <p><span class="criticality low-criticality">严重程度: 低</span></p>
+            <p><strong>我的回应/解决方案:</strong> 对个人中心的信息架构进行优化。信用分模块将提升至“我的”页面顶部用户头像下方的显著位置。设计为一个动态进度条，实时显示分数，点击后可直接跳转到“信用记录”详情页。该详情页将清晰罗列扣分项、加分项及对应的时间和事件描述，以提高透明度和用户的重视程度。</p>
+        </div>
+
+        <h4>类别 B: 共享模式与信任机制</h4>
+
+        <div class="problem-item">
+            <p><strong>问题/疑问 B1:</strong> 共享插座安全与保障模糊 - 平台鼓励用户共享私人插座，但线框图未能明确展示对共享者设备和使用者的用电安全保障机制。特别是关于“保险保障”的具体范围和理赔流程描述缺失，这是用户是否愿意参与共享模式的核心信任障碍。</p>
+            <p><span class="criticality high-criticality">严重程度: 高</span></p>
+            <p><strong>我的回应/解决方案:</strong> 共享模式必须与平台提供的“物联网安全插座”绑定。该插座内置过载保护、短路监测和远程断电功能，从技术层面保障用电安全。我将在用户首次激活共享功能时，强制弹出《共享安全与保险协议》。协议将详细说明：平台将为因充电导致的插座本体损坏提供全额保险理赔，并承担因意外短路对共享者家庭电路造成的有限责任，以此解除用户的后顾之忧。线框图中将增加该协议的展示页面。</p>
+        </div>
+
+        <div class="problem-item">
+            <p><strong>问题/疑问 B2:</strong> 电费结算透明度不足 - 在共享模式下，电费的计算涉及实际电价、共享者收益、平台服务费等多个环节。线框图仅显示了最终价格，缺乏细节分解，可能导致使用者和共享者对收费和分配的公平性产生疑问。</p>
+            <p><span class="criticality medium-criticality">严重程度: 中等</span></p>
+            <p><strong>我的回应/解决方案:</strong> 设计一个“透明结算卡片”并嵌入到订单详情页和共享预约页。卡片上会明确展示费率构成：[实际用电量/电费单价 (基础电费)] + [平台服务费 (X元/时)] + [共享者激励费 (占基础电费的 Y%)]。在充电结束后，系统会提供详细的电子账单明细，清晰列出每一项费用的数值和计算逻辑，确保整个结算流程对用户完全透明，增强信任感。</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>3. 预期改进</h3>
+        <p>通过解决上述问题，系统将从以下三个主要方面得到显著改进：</p>
+
+        <ul>
+            <li><strong>提升用户操作效率 :</strong> 通过区分导航入口和优化信息结构（A1, A2），用户寻找和预约充电桩的平均时间将减少至少15%，同时降低误操作率。</li>
+            <li><strong>增强共享模式的信任与参与度 :</strong> 明确物联网插座的安全保障机制和保险范围（B1），将显著提升私有资源所有者参与共享的意愿，从而增加校园整体可用充电资源。</li>
+            <li><strong>提高平台透明度与公平性 :</strong> 优化信用分入口（A2）和电费结算详情（B2）的展示，能够建立更清晰的奖惩和收费机制，促进更文明、公平的充电环境。</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
