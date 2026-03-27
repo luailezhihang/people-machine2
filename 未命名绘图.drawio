@@ -770,6 +770,15 @@
         <mxCell id="PXW69m9n9-KNLRBgM0_V-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#D4E1F5;" value="&lt;b&gt;学生特征&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="120" x="230" y="140" as="geometry" />
         </mxCell>
+        <mxCell id="PXW69m9n9-KNLRBgM0_V-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#FAD9D5;" value="KL散度蒸馏" vertex="1">
+          <mxGeometry height="50" width="120" x="-90" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="PXW69m9n9-KNLRBgM0_V-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#FAD9D5;" value="特征蒸馏" vertex="1">
+          <mxGeometry height="50" width="120" x="70" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="PXW69m9n9-KNLRBgM0_V-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#FAD9D5;" value="对比蒸馏" vertex="1">
+          <mxGeometry height="50" width="120" x="230" y="230" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
