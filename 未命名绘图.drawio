@@ -779,6 +779,42 @@
         <mxCell id="PXW69m9n9-KNLRBgM0_V-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#FAD9D5;" value="对比蒸馏" vertex="1">
           <mxGeometry height="50" width="120" x="230" y="230" as="geometry" />
         </mxCell>
+        <mxCell id="PXW69m9n9-KNLRBgM0_V-28" edge="1" parent="1" source="PXW69m9n9-KNLRBgM0_V-11" style="endArrow=classic;html=1;rounded=0;strokeColor=#09555B;fontSize=12;fontColor=#1A1A1A;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="230" as="sourcePoint" />
+            <mxPoint x="-20" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXW69m9n9-KNLRBgM0_V-29" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#09555B;fontSize=12;fontColor=#1A1A1A;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="289.5" y="170" as="sourcePoint" />
+            <mxPoint x="289.5" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXW69m9n9-KNLRBgM0_V-30" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=#09555B;fontSize=12;fontColor=#1A1A1A;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-20" y="200" as="sourcePoint" />
+            <mxPoint x="290" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXW69m9n9-KNLRBgM0_V-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#09555B;fontSize=12;fontColor=#1A1A1A;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="200" as="sourcePoint" />
+            <mxPoint x="140" y="227" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXW69m9n9-KNLRBgM0_V-32" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#000000;fontColor=#1A1A1A;fillColor=#FAD9D5;direction=north;" value="" vertex="1">
+          <mxGeometry height="70" width="320" x="-23" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="PXW69m9n9-KNLRBgM0_V-33" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=#09555B;fontSize=12;fontColor=#1A1A1A;startSize=8;endSize=8;curved=1;entryX=0.429;entryY=0.503;entryDx=0;entryDy=0;entryPerimeter=0;" target="PXW69m9n9-KNLRBgM0_V-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="138" y="283" as="sourcePoint" />
+            <mxPoint x="138" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXW69m9n9-KNLRBgM0_V-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#CDA2BE;" value="联合蒸馏训练" vertex="1">
+          <mxGeometry height="50" width="120" x="77" y="350" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
