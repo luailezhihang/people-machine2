@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6" pages="2">
   <diagram name="第 1 页" id="zEHrv8e9OUJEpIJiyvAa">
-    <mxGraphModel dx="786" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="807" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -189,6 +189,89 @@
         </mxCell>
         <mxCell id="hpJmM3j0Npe_gQt7s0bu-53" edge="1" parent="1" source="hpJmM3j0Npe_gQt7s0bu-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.547;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#09555B;fontSize=12;fontColor=#1A1A1A;startSize=8;endSize=8;" target="hpJmM3j0Npe_gQt7s0bu-41">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bJ-lwtK-NxbELoD5-lW-" name="第 2 页">
+    <mxGraphModel dx="1607" dy="1235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="642HNbUpGJpKNi3UTTq9-28" edge="1" parent="1" source="m_DHxeL0e2lmBKCY_x_--1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#09555B;fontSize=12;fontColor=#1A1A1A;startSize=8;endSize=8;" target="642HNbUpGJpKNi3UTTq9-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_DHxeL0e2lmBKCY_x_--1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B9E0A5;fillColor=#d5e8d4;" value="" vertex="1">
+          <mxGeometry height="180" width="100" x="-310" y="-410" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontColor=#1A1A1A;" value="输入CLIP模型" vertex="1">
+          <mxGeometry height="30" width="130" x="-325" y="-480" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#97D077;" value="" vertex="1">
+          <mxGeometry height="30" width="80" x="-300" y="-400" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#97D077;" value="" vertex="1">
+          <mxGeometry height="30" width="80" x="-300" y="-270" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#97D077;" value="" vertex="1">
+          <mxGeometry height="30" width="80" x="-300" y="-360" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontColor=#1A1A1A;" value="&lt;h6&gt;Transformer编码器层&lt;/h6&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-290" y="-400" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontColor=#1A1A1A;" value="&lt;h6&gt;Transformer编码器层&lt;/h6&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-290" y="-360" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontColor=#1A1A1A;" value="&lt;h6&gt;Transformer编码器层&lt;/h6&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-290" y="-270" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-11" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#000000;fontColor=#1A1A1A;fillColor=#FAD9D5;" value="" vertex="1">
+          <mxGeometry height="160" width="20" x="-345" y="-400" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontColor=#1A1A1A;" value="&lt;h6&gt;图&lt;/h6&gt;&lt;h6&gt;像&lt;/h6&gt;&lt;h6&gt;编&lt;/h6&gt;&lt;h6&gt;码&lt;/h6&gt;&lt;h6&gt;器&lt;/h6&gt;" vertex="1">
+          <mxGeometry height="10" width="60" x="-406" y="-330" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontColor=#1A1A1A;" value=".&lt;div&gt;.&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-290" y="-320" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B9E0A5;fillColor=#E1D5E7;" value="" vertex="1">
+          <mxGeometry height="180" width="100" x="-310" y="-192" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-17" edge="1" parent="1" source="642HNbUpGJpKNi3UTTq9-1" style="endArrow=classic;html=1;rounded=0;strokeColor=#09555B;fontSize=12;fontColor=#1A1A1A;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-40" y="-230" as="sourcePoint" />
+            <mxPoint x="-260" y="-420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-18" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#000000;fontColor=#1A1A1A;fillColor=#FAD9D5;" value="" vertex="1">
+          <mxGeometry height="160" width="20" x="-350" y="-182" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontColor=#1A1A1A;" value="&lt;h6&gt;文&lt;/h6&gt;&lt;h6&gt;本&lt;/h6&gt;&lt;h6&gt;编&lt;/h6&gt;&lt;h6&gt;码&lt;/h6&gt;&lt;h6&gt;器&lt;/h6&gt;" vertex="1">
+          <mxGeometry height="10" width="60" x="-405" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#C3ABD0;" value="&lt;span style=&quot;font-size: 10.72px; font-weight: 700;&quot;&gt;Transformer编码器层&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="-295" y="-182" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#C3ABD0;" value="&lt;span style=&quot;font-size: 10.72px; font-weight: 700;&quot;&gt;Transformer编码器层&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="-295" y="-52" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#C3ABD0;" value="&lt;span style=&quot;font-size: 10.72px; font-weight: 700;&quot;&gt;Transformer编码器层&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="-295" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontColor=#1A1A1A;" value=".&lt;div&gt;.&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-290" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontColor=#1A1A1A;" value="&lt;h5&gt;任务重要性评分计算&lt;/h5&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-150" y="-450" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#D4E1F5;" value="" vertex="1">
+          <mxGeometry height="75" width="100" x="-170" y="-370" as="geometry" />
+        </mxCell>
+        <mxCell id="642HNbUpGJpKNi3UTTq9-27" edge="1" parent="1" source="642HNbUpGJpKNi3UTTq9-15" style="endArrow=none;html=1;rounded=0;strokeColor=#09555B;fontSize=12;fontColor=#1A1A1A;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-40" y="-250" as="sourcePoint" />
+            <mxPoint x="-260" y="-210" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
